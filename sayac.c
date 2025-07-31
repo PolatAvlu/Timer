@@ -4,7 +4,7 @@
 #include <stdlib.h>
 
 void clear_screen() {
-    printf("\033[2J\033[1;1H"); // Terminali temizle ve imleci başa al
+    printf("\033[2J\033[1;1H"); 
 }
 
 int main() {
@@ -17,7 +17,7 @@ int main() {
 
         clear_screen();
 
-        // ANSI renk kodları: sarı, kalın, reset
+        
         printf("\033[1;33m");
         printf("╔══════════════════════╗\n");
         printf("║ ⏱ POLAT BABA 22  ⏱   ║\n");
